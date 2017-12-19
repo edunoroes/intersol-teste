@@ -1,4 +1,4 @@
-# intersol-test
+# intersol-teste
 Sistema de controle Bancário com Ruby on Rails.
 
 O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
