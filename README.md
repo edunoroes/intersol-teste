@@ -30,3 +30,10 @@ Itens não obrigatórios mas que contarão como diferenciais:
   * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
   
   * Utilizar testes;
+
+
+*** COMMITAR O CÓDIGO EM UM NOVO BRANCH
+
+PRAZO PARA ENVIO
+----------------
+27/12/2017
