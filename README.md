@@ -1,5 +1,5 @@
 # intersol-test
-Sistema de controle Bancário
+Sistema de controle Bancário com Ruby on Rails.
 
 O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
@@ -28,11 +28,13 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
 Itens não obrigatórios mas que contarão como diferenciais:
 
-  * Usar Bootstrap ou Material Desing nas views;
+  * Usar Bootstrap ou Material Design nas views;
   
   * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
   
   * Utilizar testes;
+  
+  * Publicar no Heroku.
 
 
 *** COMMITAR O CÓDIGO EM UM NOVO BRANCH
