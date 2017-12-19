@@ -37,6 +37,8 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
 6- Uma movimentação não pode ser registrada se ultrapassar o limite da conta;
 
+7- O código fonte deve ser commitado e enviando em um branch com o seu nome;
+
 *Itens não obrigatórios mas que contarão como diferenciais:*
 
   * Usar Bootstrap ou Material Design nas views;
@@ -46,9 +48,6 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
   * Utilizar testes;
   
   * Publicar no Heroku.
-
-
-*** COMMITAR O CÓDIGO EM UM NOVO BRANCH
 
 Dúvidas entrar em contato por e-mail. Grato.
 
