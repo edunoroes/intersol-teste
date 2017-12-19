@@ -16,8 +16,8 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
   * Movimentações da Conta (Conta Bancária, Data da Movimentação, Valor, Tipo de Movimentação, Usuário)
   
   obs.: todos os campos são obrigatórios e devem ter telas para possibilitar o cadastro a edição e a exclusão.
-  
-  
+
+
 3- Deve ser possível registrar depósitos, saques, estornos e transferências entre contas;
 
 4- Não deve ser possível excluir uma movimentação bancária;
@@ -30,7 +30,7 @@ Itens não obrigatórios mas que contarão como diferenciais:
 
   * Usar Bootstrap ou Material Desing nas views;
   
-  * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
+  * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
   
   * Utilizar testes;
 
