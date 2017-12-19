@@ -1,5 +1,8 @@
 # intersol-teste
-Sistema de controle Bancário com Ruby on Rails.
+## Sistema de controle Bancário com Ruby on Rails.
+
+**Versão do Ruby: Minímo na 2.3**
+**Verso do Rails: Mínimo na 5.0**
 
 O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
