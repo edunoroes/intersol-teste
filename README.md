@@ -37,7 +37,7 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
 6- Uma movimentação não pode ser registrada se ultrapassar o limite da conta;
 
-Itens não obrigatórios mas que contarão como diferenciais:
+*Itens não obrigatórios mas que contarão como diferenciais:*
 
   * Usar Bootstrap ou Material Design nas views;
   
