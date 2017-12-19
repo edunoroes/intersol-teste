@@ -5,6 +5,13 @@
 
 **Verso do Rails: Mínimo na 5.0**
 
+PRAZO PARA ENVIO
+----------------
+27/12/2017
+
+
+INSTRUÇÕES
+----------------
 O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
 
 1- Deve ser possível logar no sistema usuando um nome de usuário ou e-mail juntamente com uma senha;
@@ -43,6 +50,4 @@ Itens não obrigatórios mas que contarão como diferenciais:
 
 *** COMMITAR O CÓDIGO EM UM NOVO BRANCH
 
-PRAZO PARA ENVIO
-----------------
-27/12/2017
+
