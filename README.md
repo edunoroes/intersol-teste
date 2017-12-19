@@ -50,4 +50,6 @@ Itens não obrigatórios mas que contarão como diferenciais:
 
 *** COMMITAR O CÓDIGO EM UM NOVO BRANCH
 
+Dúvidas entrar em contato por e-mail. Grato.
+
 
