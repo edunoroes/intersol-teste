@@ -7,10 +7,13 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária, 
 
 2- O sistema deve conter os seguintes modelos;
 
-  Usuários (login, senha) 
-  Agências Bancárias (Número da Agência, Endereço)
-  Contas Bancárias (Agência Bancária, Número da Conta, Limite)
-  Movimentações da Conta (Conta Bancária, Data da Movimentação, Valor, Tipo de Movimentação, Usuário)
+  * Usuários (login, senha)
+  
+  * Agências Bancárias (Número da Agência, Endereço)
+  
+  * Contas Bancárias (Agência Bancária, Número da Conta, Limite)
+  
+  * Movimentações da Conta (Conta Bancária, Data da Movimentação, Valor, Tipo de Movimentação, Usuário)
   
   obs.: todos os campos são obrigatórios e devem ter telas para possibilitar o cadastro a edição e a exclusão.
   
@@ -23,5 +26,7 @@ O objetivo do teste é criar um pequeno sistema de controle de conta bancária, 
 Itens não obrigatórios mas que contarão como diferenciais:
 
   * Usar Bootstrap ou Material Desing nas views;
+  
   * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
+  
   * Utilizar testes;
