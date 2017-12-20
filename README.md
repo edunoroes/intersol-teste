@@ -5,6 +5,8 @@
 
 **Verso do Rails: Mínimo na 5.0**
 
+**Banco de Dados: Postgresql**
+
 PRAZO PARA ENVIO
 ----------------
 27/12/2017
