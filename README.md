@@ -1,16 +1,9 @@
-# intersol-teste
+# SpeedGov Teste
 ## Sistema de controle Bancário com Ruby on Rails.
 
-**Versão do Ruby: Minímo na 2.3**
-
-**Verso do Rails: Mínimo na 5.0**
+**Verso do Rails: Mínimo na 6.0**
 
 **Banco de Dados: Postgresql**
-
-PRAZO PARA ENVIO
-----------------
-27/12/2017
-
 
 INSTRUÇÕES
 ----------------
