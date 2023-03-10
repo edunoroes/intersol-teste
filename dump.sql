@@ -8,6 +8,12 @@ create table usuarios(
   senha text not null
 );
 
+create table agencias (
+  id serial primary key,
+  numero_agencia integer not null unique,
+  endereco text not null
+)
+
 create table contas(
 	id serial primary key,
   agencia_bancaria integer not null references agencias(numero_agencia),
