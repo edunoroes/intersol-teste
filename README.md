@@ -11,9 +11,13 @@ Usuário consegue fazer um saque
 Usuário consegue fazer uma transferencia
 Usuário consegue fazer uma estorno
 Usuario consegue sair do site
+
 Banco de dados utilizado:
+
 PostgreSQL
+
 Bibliotecas utilizadas
+
 Express: Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web
 
 Axios: Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quando no Node.js.
