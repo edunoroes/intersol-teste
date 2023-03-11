@@ -2,9 +2,8 @@ const knex = require("../../config/connections");
 
 const conta = async (req, res) => {
   const { id: usuario } = req.userLogged;
-
+  const { agencia_bancaria, numero_conta } = req.body;
   try {
-    const { agencia_bancaria, numero_conta } = req.body;
     const dataFlow = await knex("agencias")
       .where({
         numero_agencia: agencia_bancaria,
@@ -38,7 +37,7 @@ const conta = async (req, res) => {
     await knex("contas").insert({
       agencia_bancaria: dataFlow.numero_agencia,
       numero_conta,
-      limite:limite=0,
+      limite: (limite = 0),
       conta_usuario_id: usuario,
     });
 

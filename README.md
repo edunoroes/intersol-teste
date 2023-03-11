@@ -1,49 +1,81 @@
-# SpeedGov Teste
-## Sistema de controle Bancário com Ruby on Rails.
+Intersol - Teste 
 
-**Verso do Rails: Mínimo na 6.0**
-
-**Banco de Dados: Postgresql**
-
-INSTRUÇÕES
-----------------
-O objetivo do teste é criar um pequeno sistema de controle de conta bancária.
-
-1- Deve ser possível logar no sistema usuando um nome de usuário ou e-mail juntamente com uma senha;
-
-2- O sistema deve conter os seguintes modelos;
-
-  * Usuários (login, senha)
-  
-  * Agências Bancárias (Número da Agência, Endereço)
-  
-  * Contas Bancárias (Agência Bancária, Número da Conta, Limite)
-  
-  * Movimentações da Conta (Conta Bancária, Data da Movimentação, Valor, Tipo de Movimentação, Usuário)
-  
-  obs.: todos os campos são obrigatórios e devem ter telas para possibilitar o cadastro a edição e a exclusão.
+Repositorio do front-end: https://github.com/edunoroes/intersol-front
 
 
-3- Deve ser possível registrar depósitos, saques, estornos e transferências entre contas;
+Objetivo: Desenvolva um sistema de controle Bancário
+Usuário pode criar conta
+Usuário pode fazer login
+Usuário consegue criar uma conta bancária
+Usuário consegue fazer um deposito
+Usuário consegue fazer um saque
+Usuário consegue fazer uma transferencia
+Usuário consegue fazer uma estorno
+Usuario consegue sair do site
+Banco de dados utilizado:
+PostgreSQL
+Bibliotecas utilizadas
+Express: Express.js é um framework para Node.js que fornece recursos mínimos para construção de servidores web
+Axios: Axios é um cliente HTTP baseado em Promises para fazer requisições. Pode ser utilizado tanto no navegador quando no Node.js.
+Bcrypt: O bcrypt é uma biblioteca para encriptação de dados. Neste caso, o dado a ser criptografado é o password.
+JsownWebToken: Um JWT é um padrão para autenticação e troca de informações definido pela RFC7519. Nele é possível armazenar de forma segura e compacta objetos JSON
+Cors: CORS é um mecanismo que permite que recursos restritos em uma página da web sejam recuperados por outro domínio fora do domínio ao qual pertence o recurso que será recuperado.
+Dotenv: O DotEnv é um pacote leve do npm que carrega automaticamente as variáveis de ambiente de um arquivo.
+Knex: O knex é um query-builder ou “construtor de consultas” em tradução livre, para Node. js, e que interage com bancos relacionais.
+Endpoints
+Criar conta na plataforma
+POST /cadastro
+Esse endpoint deverá criar uma conta no sistema "intersol-teste"
 
-4- Não deve ser possível excluir uma movimentação bancária;
+Você deverá, OBRIGATORIAMENTE:
 
-5- Deve ser possível obter o saldo de uma conta bancária (deve aparecer nas views);
+Inserir seu nome
 
-6- Uma movimentação não pode ser registrada se ultrapassar o limite da conta;
+Inserir seu usuario
 
-7- UPDATED: Fazer um fork ou mesmo um projeto novo e enviar o link do mesmo (para evitarmos que alguém copie o código do outro)
+Inserir seu email
 
-*Itens não obrigatórios mas que contarão como diferenciais:*
+Inserir sua senha
 
-  * Usar Bootstrap ou Material Design nas views;
-  
-  * Usar frameworks javascript para melhorar a interação do usuário com os cadastros que deve realizar;
-  
-  * Utilizar testes;
-  
-  * Publicar no Heroku.
 
-Dúvidas entrar em contato por e-mail. Grato.
+Login no sistema
+POST /login
+Esse endpoint deverá lhe redirecionar para página de dashboard (OBS: Você só consegue acessar a página de dashboard caso faça login, pois será enviado um TOKEN)
+
+Você deverá, OBRIGATORIAMENTE:
+
+Inserir o email ou usuario cadastrado
+Inserir a senha cadastrada
+Resposta
+
+Em caso de sucesso, você será redirecionado para a dashboard do site! Em caso de falha na validação, a resposta mostrará uma mensagem de error no próprio site ou na API
+
+
+POST /agencia
+Esse endpoint deverá cadastrar uma agência
+
+
+GET /agencias
+Esse endpoint deverá listas todas as agências.
+
+POST /conta
+Esse endpoint deverá criar uma conta bancária.
+
+GET /contas
+Esse endpoint deverá listas todas as contas bancárias.
+
+POST /deposito
+Esse endpoint deverá criar uma deposito na conta bancária logada.
+
+POST /saque
+Esse endpoint deverá criar uma saque na conta bancária logada.
+
+POST /transferencia
+Esse endpoint deverá criar uma transferencias entre duas contas com o valor partindo da conta logada.
+
+POST /estorno
+Esse endpoint deverá criar um estorno da ultima transferencia.
+
+
 
 
